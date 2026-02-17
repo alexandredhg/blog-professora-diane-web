@@ -224,15 +224,17 @@ p{
 
     .item{
         border: 0px solid white; 
-        height: 32rem;
+        height: 30rem;
         max-width: 100%;
+        margin-bottom: auto;
         
     }
 
     .item2{
         border: 0px solid white; 
-        height: 32rem;
+        height: 30rem;
         max-width: 100%;
+        margin-bottom: auto;
         
     }
 
@@ -310,14 +312,16 @@ p{
 
     .item{
         border: 0px solid white; 
-        height: 32rem;
+        height: 30rem;
         max-width: 100%;
+        margin-bottom: auto;
         
     }
 
     .item2{
     border: 0px solid white; 
-        height: 32rem;
+        height: 30rem;
+        margin-bottom: auto;
         max-width: 100%;
         
     }
