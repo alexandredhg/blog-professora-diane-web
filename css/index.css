@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
+}
+
+h1{        
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-family: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 25px; 
+    font-family: inherit;   
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    font-family: inherit;        
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+h4{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: inherit;
+    color: black;
+    width: 95%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
+}
+
+.menuLi{ 
+    font-size: 20px;
+    font-family: inherit;  
+    color: blueviolet;    
+    text-decoration: none; 
+       
+                
+}
+
+.menuUl{
+    text-align: center;  
+    list-style-type: none;
+              
+    
+}
+
+.baner{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;      
+       
+    
+}
+
+.baner2{
+    border: 3px solid white;    
+    height: 17rem;
+    width: 30rem;
+    margin: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.img{
+    border-radius: 50%;
+    border: 3px solid black;
+    border: none;
+}*/
+
+.contener{     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 100px;
+     
+     
+}
+
+.item{    
+    
+    margin-bottom: 100px;      
+   
+}
+
+.item2{
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.item3{
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+
+
+
+@media (max-width: 768px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 35px;        
+        text-align: center;
+    } 
+
+    h5{
+        font-size: 35px;        
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 30px;
+        text-align: center;                
+    }
+    
+    p{
+        font-size: 30px;
+        text-align: justify;
+            
+    }
+
+    .baner{     
+        flex-direction: column;
+        gap: 25px;
+    } 
+    
+    .baner2{
+    border: 0px solid white;    
+    height: 35rem;
+    width: 90%;    
+
+    } 
+    
+    .contener{        
+        flex-direction: column;
+        gap: 25px;
+        max-width: 90%;
+    }
+
+    .item{
+        height: 35rem;
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .item2{
+        height: 35rem;
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .item3{
+        height: 35rem;
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+    
+    
+}
+
+
+
+
+@media (max-width: 480px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 35px;        
+        text-align: center;
+    } 
+
+    h5{
+        font-size: 35px;        
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 30px;
+        text-align: center;                
+    }
+    
+    p{
+        font-size: 30px;
+        text-align: justify;
+              
+    }
+
+
+    .baner{     
+        flex-direction: column;
+        gap: 25px;
+    } 
+    
+    .baner2{
+    border: 0px solid white;    
+    height: 35rem;
+    width: 90%;    
+
+    } 
+    
+    .contener{        
+        flex-direction: column;
+        gap: 25px;
+        width: 90%;
+    }
+
+    .item{
+        height: 35rem;
+        width: 90%;
+    }
+
+    .item2{
+        height: 35rem;
+        width: 90%;
+    }
+
+    .item3{
+        height: 35rem;
+        width: 90%;
+    }
+
+    
+}
